@@ -1,0 +1,15 @@
+<div id="container">
+ <div *ngIf="customersData"> 
+  <div class="row" *ngFor="let customer of customersData">
+     <span class="col-md-4">
+    <p>Name: {{customer.name}}</p>
+    <p>id: {{customer.id}}</p>
+    <p>country:{{customer.country}}</p>
+    <p>Total orders: {{customer.total_orders}}</p>
+  </span>
+  </div>
+ </div>
+ <div *ngIf="!customersData">
+<h1> No Customers Yet</h1>
+ </div>
+</div>
