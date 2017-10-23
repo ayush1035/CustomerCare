@@ -1,0 +1,6 @@
+# to create the customer data table.
+create table CustomerData (id int NOT NULL AUTO_INCREMENT, name NOT NULL varchar(50), country NOT NULL varchar(50), total_orders int)
+
+#insert some random values
+insert into CustomerData values ('ayush', 'india', 0), ('manveer', 'india', 0), ('febian', 'spain', 10) 
+
