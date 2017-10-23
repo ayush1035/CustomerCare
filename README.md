@@ -1,5 +1,10 @@
 # CustomerCare
 
+This project is a website showing customers data. The main motive of this project is to show the layered structure of the code used to
+fetch customer data from the database and show it on the website. The singleton pattern is also followed.
+
+The languages used in this project are Angular2 for front end, Node.js for the backend and the database used is MySQL.The services in Angular 2 are used to make a call to a url, which is handled by Node.js helping to fetch the data from MySQL database. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
 
 ## Development server
